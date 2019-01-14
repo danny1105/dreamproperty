@@ -17,7 +17,7 @@ $('#year').html(theYear);
 
 // Google Map
 function initMap() {
-    var location = {lat: 40.730, lng: -73.935};
+    var location = {lat: 28.5318, lng: 77.20745};
     var map = new google.maps.Map(document.getElementById("map"), {
       zoom:13,
       center:location
